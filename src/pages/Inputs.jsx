@@ -9,7 +9,7 @@ export default function Inputs(){
     const [memes, setMemes] = React.useState({
         topText:"shut up and",
         bottomText:"take my money!",
-        imgUrl:"../../public/give.jpg",
+        imgUrl:"../assets/give.jpg",
     });
 
     const [memeImg, setMemeImg] = React.useState(memesData)
