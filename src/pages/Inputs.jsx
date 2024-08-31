@@ -1,5 +1,6 @@
 import React from 'react';
 import memesData from "./data.jsx";
+import meme from "../assets/give.jpg";
 import "../index.css";
 
 
@@ -9,7 +10,7 @@ export default function Inputs(){
     const [memes, setMemes] = React.useState({
         topText:"shut up and",
         bottomText:"take my money!",
-        imgUrl:"../assets/give.jpg",
+        imgUrl:`${meme}`,
     });
 
     const [memeImg, setMemeImg] = React.useState(memesData)
